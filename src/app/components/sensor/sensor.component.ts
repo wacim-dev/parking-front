@@ -35,7 +35,7 @@ export class SensorComponent implements AfterViewInit {
       data: [{
         type: "stepArea",
         color: "#3f51b5",
-        lineColor: "#002984",
+        lineColor: "red",
         markerType: "none",
         dataPoints: this.dataPoints,
       }]
