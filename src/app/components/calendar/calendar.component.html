@@ -1,0 +1,8 @@
+<button class="btn-date" mat-flat-button color="primary">
+    <mat-icon aria-hidden="false" aria-label="Example home icon">today</mat-icon>  
+    <b>{{date.toLocaleDateString()}}</b>
+</button>
+
+<mat-card class="calendar">
+    <mat-calendar (selectedChange)="changeDate($event)"></mat-calendar>
+</mat-card>

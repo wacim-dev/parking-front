@@ -1,0 +1,13 @@
+.calendar {
+    margin: 0 auto;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.btn-date {
+    margin-top: 10px
+}
+
+.btn-date mat-icon {
+    margin-right: 10px
+}

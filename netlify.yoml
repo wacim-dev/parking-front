@@ -1,0 +1,3 @@
+[build]
+  publish = "dist/charts"
+  command = "npm run build"
